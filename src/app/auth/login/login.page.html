@@ -1,0 +1,29 @@
+<ion-content>
+  <div class="content">
+    <ion-text color="light">
+      <h2>SICTRA</h2>
+    </ion-text>
+    <ion-item class="itemsInputs" lines="none">
+      <ion-item lines="none" no-padding>
+        <ion-icon color="light" name="person"></ion-icon>
+        <ion-input type="text" placeholder="Correo*"></ion-input>
+      </ion-item>
+    </ion-item>
+
+    <ion-item class="itemsInputs" lines="none">
+      <ion-item lines="none" no-padding>
+        <ion-icon color="light" name="lock"></ion-icon>
+        <ion-input [type]="passwordTypeInput" placeholder="Contraseña*"></ion-input>
+        <button item-end class="btn_eye_icon" (click)="togglePasswordMode()">
+          <ion-icon [name]="iconpassword" color="light"></ion-icon>
+        </button>
+      </ion-item>
+    </ion-item>
+
+    <p class="forgotPassword">¡Olvide la contraseña!</p>
+    <p class="register">
+      No tienes una cuenta? <b> Crea una cuenta</b>
+    </p>
+    <ion-button expand="block" class="btnLogin">Iniciar SESIÓN</ion-button>
+  </div>
+</ion-content>

@@ -1,0 +1,7 @@
+{
+  "name": "sictra",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}
